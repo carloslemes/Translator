@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionsLog", "TransactionsLog\TransactionsLog.csproj", "{1E613114-A77C-408D-8C41-A3882CF94F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionsLog.Test", "TransactionsLog.Test\TransactionsLog.Test.csproj", "{221E650C-0549-448F-80CF-70F7D8430F79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Itens", "Solution Itens", "{09BD6D5F-12F2-4750-9A8A-B7B0A135A2CE}"
+	ProjectSection(SolutionItems) = preProject
+		build.proj = build.proj
+		input.txt = input.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{38AD0C20-E43D-45F0-B785-6F79E46DF381}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E613114-A77C-408D-8C41-A3882CF94F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E613114-A77C-408D-8C41-A3882CF94F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E613114-A77C-408D-8C41-A3882CF94F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E613114-A77C-408D-8C41-A3882CF94F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221E650C-0549-448F-80CF-70F7D8430F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221E650C-0549-448F-80CF-70F7D8430F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221E650C-0549-448F-80CF-70F7D8430F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
